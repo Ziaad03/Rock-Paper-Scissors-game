@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock paper siccors game</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div class="header">
+        Rock || Paper || Scissors
+    </div>
+
+    <div class="game">
+        <div class="title">
+            It is you against the Computer!
+
+        </div>
+
+        <div class="weaponChoice">
+            <div id="weaponText">Select a weapon</div>
+
+            <div class="buttons">
+                <button id="rock"><img  id="rockimj" src="./images/rock.jpeg" alt="Rock"></button>
+                <button id="paper" ><img src="./images/paper.png" alt="paper boi"></button>
+                <button id="scissors"><img src="./images/scisscors.png" alt="scissors icon"></button>
+            </div>
+        </div>
+
+        <div class="displayGame">
+            <div>
+                <label >player </label>
+                <label >Computer </label>
+            </div>
+
+            <div class="displayWeapons">
+            <label id="playerChoice"></label>
+            <label id="vsText"> Vs</label>
+            <label id="computerChoice" ></label>
+            </div>
+
+
+        </div>
+        <div id="resultText">
+           
+        </div>
+
+        <div id="scoreboard">
+            <h2>Score Board</h2>
+            <div class="score">
+                <div id="playerResult"></div>
+                <div id="computerResult"></div>
+            </div>
+
+        </div>
+        <div id="finalScore"></div>
+
+    </div>
     <script src="javascript.js"></script>
     
     

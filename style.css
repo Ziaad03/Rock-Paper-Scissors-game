@@ -1,0 +1,108 @@
+body{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   color:#f8e9a1;
+   background-color: #2d283e;
+  
+}
+
+.header{
+   display: flex;
+   justify-content: center;
+   font-size: 40px;
+   background-color: #6a0572;  /* Purple background for the header */
+   padding: 20px;
+   margin: -5px;
+   color: #f8e9a1;  /* Light text color for the header */
+  
+
+}
+
+button{
+   font-size: large;
+   border-radius: 5px;
+   
+
+}
+
+.game{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    color: #f8e9a1;
+    background: #372e5c;  /* Dark purple background for the game */
+    
+    
+
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 100px;
+    
+    
+    
+
+}
+
+.weaponChoice{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+}
+#weaponText{
+
+   font-size: 20px;
+}
+
+img{
+   width: 80px;
+   height: 80px;
+}
+
+.displayGame{
+   display: flex;
+   flex-direction: column;
+   justify-content:space-around;
+   gap: 30px;
+}
+.displayGame div{
+
+   display: flex;
+   flex-direction: row;
+   justify-content:space-between;
+   gap: 80px;
+   
+}
+
+
+#scoreboard{
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.score{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 35px;
+
+}
+
+.score div{
+    font-size: 20px;
+
+}
+
+#vsText{
+   font-size: 25px;
+
+}
